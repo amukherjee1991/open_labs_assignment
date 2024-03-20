@@ -18,8 +18,8 @@ This Python script provides a comprehensive analysis tool for examining cryptocu
 2. **Command Line Argument:** The script accepts a single command line argument specifying the directory containing the data files. Example: `python script.py ./data`
 3. **Data Files:** Prepare your dataset in the following formats:
    - **Dataset:** A Parquet file containing transaction data.
-   - **Token Prices:** A CSV file with the current prices of tokens.
-   - **Token Addresses:** A JSON file with token addresses.
+   - **Token Prices:** A CSV file with the current prices of tokens. (downloaded from coingecko)
+   - **Token Addresses:** A JSON file with token addresses. (found manually)
 
 ## Analyzing Token Pairs
 
