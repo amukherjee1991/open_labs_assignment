@@ -13,4 +13,6 @@ download:
 	@mkdir -p $(SAVE_DIR)
 	pipenv run python ./scripts/file_downloader.py $(SAVE_DIR)
 
+tasks:download
+	pipenv run python scripts/tasks.py ./data >> output.txt
 .PHONY: download
