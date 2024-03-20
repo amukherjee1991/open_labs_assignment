@@ -7,6 +7,7 @@ This Python script provides a comprehensive analysis tool for examining cryptocu
 
 - **Load Data:** Capable of loading datasets from Parquet files, ensuring efficient processing of large volumes of data.
 - **Token Price Fetching:** Utilizes the `CoinGeckoPrices` class to fetch current prices of tokens from CoinGecko, storing the data in CSV format.
+- **Token Addresses:** Found the unique addresses belonging to tokens and simple google search revealed which contract address belongs to which coin. Created a json file to map them.
 - **Market Depth Calculation:** Calculates the market depth of token pairs by summing the absolute liquidity amounts and averaging the prices of the tokens involved.
 - **Profit and Loss (PnL) Calculation:** Estimates the PnL for individual tokens within a pair based on initial prices, final prices, and initial liquidity.
 - **Token Pair Filtering:** Analyzes transactions for specified token pairs, filtering the data to include only relevant transactions.
