@@ -1,3 +1,5 @@
 *.parquet
 *.csv
 output.txt
+Pipfile
+Pipfile.lock
